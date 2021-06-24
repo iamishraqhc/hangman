@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Figure from './components/Figure';
-import WrongLetters from './components/WrongLetters';
-import Word from './components/Word';
+import { Header, Figure, Word, WrongLetters, Notification, Popup } from './components'
+
 import { showNotification as show } from './helpers/helpers';
-import Popup from './components/Popup';
-import Notification from './components/Notification';
 
 import './App.css';
 
